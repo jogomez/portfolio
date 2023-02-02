@@ -73,6 +73,8 @@ body {
 .gallery{
   display: flex;
   align-items: center;
+  margin: 30px 0px 30px 0px;
+  margin-left: 20px;
 }
 
 .image-container{
@@ -131,6 +133,7 @@ section h3{
   text-align: left;
   flex: 0 0 30%;
   left: 10px; 
+  margin: 10px 0px 10px 0px;
   
 }
 
@@ -153,7 +156,7 @@ section article {
     margin: 2px 0px 2px 0px;
     border: 2px solid darkgoldenrod;
 }
-.project-1 {
+.project{
     /* flex-grow / flex-shrink / flex-basis */
     flex: 0 0 100%;  
     /* background-color: blue; */
@@ -167,16 +170,7 @@ section article {
   flex-wrap: wrap;
   flex:0 0 50%;
 }
-.green{
-    /* background-color: green; */
-    display: flex;
-    
-}
-.red{
-    /* background-color: red; */
-    display: flex;
-    
-}
+
 
   div.gallery {
     border: 0px solid #ccc;
@@ -228,4 +222,8 @@ section article {
     content: "";
     display: table;
     clear: both;
+  }
+
+  .portfolio{
+    margin: 30px 0px 30px 0px;
   }
